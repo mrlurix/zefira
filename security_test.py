@@ -18,7 +18,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 BASE = sys.argv[1].rstrip("/") if len(sys.argv) > 1 else "http://127.0.0.1:8000"
 ADMIN = sys.argv[2] if len(sys.argv) > 2 else "admin"
-PASSWORD = sys.argv[3] if len(sys.argv) > 3 else "Zefira@2026"
+PASSWORD = sys.argv[3] if len(sys.argv) > 3 else "YOUR_PASSWORD"
 
 results = []
 
